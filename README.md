@@ -1,2 +1,3 @@
-# Sales_Data_Analysis_2025
-Project that involves taking data from an Excel file and cleaning/testing the data before being displayed on a PowerBi dashboard to review results.
+# Data Portfolio: Excel to Power BI
+<img width="557" alt="Ex_SQL_PBI Title Card" src="https://github.com/user-attachments/assets/56d5d43c-b40d-45f7-acf9-a69726241460" />
+

@@ -4,36 +4,13 @@
 # Table of Contents
 - [Overview](#overview)
 - [Data Source](#data-source)
-- [Stages](#stages)
-- [Design](#design)
-  - [Mockup](#mockup)
-  - [Tools](#tools)
-- [Development](#development)
-  - [Pseudocode](#pseudocode)
-  - [Data Exploration](#data-exploration)
-  - [Data Cleaning](#data-cleaning)
-  - [Transform the Data](#transform-the-data)
-  - [Create the SQL View](#create-the-sql-view)
-- [Testing](#testing)
-  - [Data Quality Tests](#data-quality-tests)
-- [Visualization](#visualization)
-  - [Results](#results)
-  - [DAX Measures](#dax-measures)
-- [Analysis](#analysis)
-  - [Findings](#findings)
-  - [Validation](#validation)
-  - [Discovery](#discovery)
-- [Recommendations](#recommendations)
-  - [Potential ROI](#potential-roi)
-  - [Potential Courses of Actions](#potential-courses-of-actions)
-- [Conclusion](#conclusion)
+
 
 # Overview
 **Description:**  
-Analyze historical retail sales to uncover seasonal trends, top-performing products, and key customer segments.  
-**Stakeholder:** Sales Director & Marketing Team aiming to optimize inventory and promotional decisions.
+Analyze historical retail sales to uncover seasonal trends, top-performing products, and key customer segments to help the sales director & marketing team optimize inventory and promotional decisions.
 
-## 2. Problem Statement
+### Problem Statement
 The Sales Director needs clarity on how sales fluctuate seasonally, which products drive peak revenue, and which customer segments contribute most to growth.
 
 ## Data Source

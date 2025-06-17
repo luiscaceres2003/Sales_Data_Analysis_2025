@@ -18,7 +18,7 @@ The Sales Director needs clarity on how sales fluctuate seasonally, which produc
 - **Link:** [[Retail Sales Data with Seasonal Trends & Marketing](https://www.kaggle.com/datasets/abdullah0a/retail-sales-data-with-seasonal-trends-and-marketing?)]  
 - **Fields include:** date, product ID/name, units sold, revenue, marketing spend, customer segment, region.
 
-## 4. Tools & Technologies
+## Tools & Technologies
 - **Excel:** Initial data cleanup & formatting  
 - **SQL Server:** Data ingestion, quality checks, SQL-based analysis  
 - **Power BI:** Visualization, dashboard creation, insights delivery

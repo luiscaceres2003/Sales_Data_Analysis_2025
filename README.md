@@ -36,7 +36,7 @@ Analyze historical retail sales to uncover seasonal trends, top-performing produ
 ## 2. Problem Statement
 The Sales Director needs clarity on how sales fluctuate seasonally, which products drive peak revenue, and which customer segments contribute most to growth.
 
-## 3. Data Source
+## Data Source
 - **Dataset:** Kaggle "Retail Sales Data with Seasonal Trends & Marketing"  
 - **Link:** [Kaggle dataset name & URL]  
 - **Fields include:** date, product ID/name, units sold, revenue, marketing spend, customer segment, region.

@@ -27,14 +27,14 @@ This dashboard will enable the Sales and Marketing teams to:
 # Data Source
 - **Dataset:** Kaggle "Retail Sales Data with Seasonal Trends & Marketing"  
 - **Fields include:**
-- - date
-- - product
-- - ID/name
-- - units sold
-- - revenue
-- - marketing spend
-- - customer segment
-- - region
+  - date
+  - product
+  - ID/name
+  - units sold
+  - revenue
+  - marketing spend
+  - customer segment
+  - region
 - **Link:** [[Retail Sales Data with Seasonal Trends & Marketing](https://www.kaggle.com/datasets/abdullah0a/retail-sales-data-with-seasonal-trends-and-marketing?)]  
 
 ## Tools & Technologies

@@ -2,9 +2,12 @@
 <img alt="Ex_SQL_PBI Title Card" src="https://github.com/user-attachments/assets/56d5d43c-b40d-45f7-acf9-a69726241460" />
 
 # Table of Contents
-- [Overview](#overview)
-- [Data Source](#data-source)
-- [Steps](#Steps)
+- [Overview](#Overview)
+- [Data Source](#Data-Source)
+- [Phases](#Phases)
+  - [Design](##Design)
+    - [Dashboard Components](###Dashboard-Components) 
+    - [Dashboard Draft](###Dashboard-Draft)
 
 
 # Overview
@@ -20,6 +23,7 @@ Create a dashboard that provides actionable insights into:
 - Top-performing products by revenue and volume
 - High-value customer segments
 - The impact of marketing spend on sales performance
+
 This dashboard will enable the Sales and Marketing teams to:
 - Plan inventory more effectively by anticipating seasonal demand
 - Focus promotions on products and customer segments that drive the most value
@@ -43,4 +47,22 @@ This dashboard will enable the Sales and Marketing teams to:
 - **SQL Server:** Data ingestion, quality checks, SQL-based analysis  
 - **Power BI:** Visualization, dashboard creation, insights delivery
 
-# Steps
+# Phases
+- Design
+
+## Design
+### Dashboard Components
+What should the dashboard contain in order to help the Sales Director and Marketing team meet their goals?
+- Here are some of the questions that the dashboard should be able to answer:
+  - How do sales fluctuate seasonally?
+  - Which products drive the most revenue and units sold?
+  - Which customer segments are most valuable?
+  - What is the impact of marketing spend?
+
+- We can use some of the following data visuals to help answer these questions:
+  - Line Chart: Clearly shows trends over time, highlights seasonal peaks and troughs.
+  - Bar Chart: Quickly identifies top-performing products; bar charts are ideal for ranking.
+  - Donut Chart: Provides a clear view of revenue share by segment in a visually digestible way.
+  - Scatter Plot: Shows correlation or trend between investment and return, helping assess ROI.
+
+### Dashboard Draft

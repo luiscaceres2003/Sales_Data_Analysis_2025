@@ -8,6 +8,7 @@
   - [Design](#Design)
     - [Dashboard Components](#Dashboard-Components) 
     - [Dashboard Draft](#Dashboard-Draft)
+  - [Development](#Development)
 
 
 # Overview
@@ -49,10 +50,10 @@ This dashboard will enable the Sales and Marketing teams to:
 | SQL Server | Cleaning, testing, and analyzing the data |
 | Power BI | Visualizing the data via interactive dashboards |
 | GitHub | Hosting the project documentation and version control |
-| Mokkup AI | Designing the wireframe/mockup of the dashboard | 
 
 # Phases
 - Design
+- Development
 
 ## Design
 ### Dashboard Components
@@ -72,3 +73,5 @@ What should the dashboard contain in order to help the Sales Director and Market
 ### Dashboard Draft
 The following draft gives us an idea into what our final dashboard will look like after the data has been properly processed and analyzed. Each data visual best represents an answer to each question.
 ![image](https://github.com/user-attachments/assets/b5f3599d-0625-4186-9b94-b1ace7551f55)
+
+## Development

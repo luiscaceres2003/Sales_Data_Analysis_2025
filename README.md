@@ -43,9 +43,13 @@ This dashboard will enable the Sales and Marketing teams to:
 - **Link:** [[Retail Sales Data with Seasonal Trends & Marketing](https://www.kaggle.com/datasets/abdullah0a/retail-sales-data-with-seasonal-trends-and-marketing?)]  
 
 ## Tools & Technologies
-- **Excel:** Initial data cleanup & formatting  
-- **SQL Server:** Data ingestion, quality checks, SQL-based analysis  
-- **Power BI:** Visualization, dashboard creation, insights delivery
+| Tool | Purpose |
+| --- | --- |
+| Excel | Exploring and familiarizing with dataset |
+| SQL Server | Cleaning, testing, and analyzing the data |
+| Power BI | Visualizing the data via interactive dashboards |
+| GitHub | Hosting the project documentation and version control |
+| Mokkup AI | Designing the wireframe/mockup of the dashboard | 
 
 # Phases
 - Design
@@ -66,3 +70,5 @@ What should the dashboard contain in order to help the Sales Director and Market
   - Scatter Plot: Shows correlation or trend between investment and return, helping assess ROI.
 
 ### Dashboard Draft
+The following draft gives us an idea into what our final dashboard will look like after the data has been properly processed and analyzed. Each data visual best represents an answer to each question.
+![image](https://github.com/user-attachments/assets/b5f3599d-0625-4186-9b94-b1ace7551f55)

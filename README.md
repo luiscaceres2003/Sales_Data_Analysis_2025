@@ -75,3 +75,13 @@ The following draft gives us an idea into what our final dashboard will look lik
 ![image](https://github.com/user-attachments/assets/b5f3599d-0625-4186-9b94-b1ace7551f55)
 
 ## Development
+### Pseudocode
+Here is our general step-by-step approach to creating and finding a solution for our dilemma.
+1. Acquire the dataset from Kaggle
+2. Explore/Prepare the data in Excel
+3. Prepare the data in Excel
+4. Import data into SQL Server
+5. Clean/Test data in SQL
+6. Build and Visualize data in Power BI
+7. Generate insights and document findings
+8. Publish the data to Github

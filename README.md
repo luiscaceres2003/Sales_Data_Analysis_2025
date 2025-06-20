@@ -4,6 +4,7 @@
 # Table of Contents
 - [Overview](#overview)
 - [Data Source](#data-source)
+- [Steps](#Steps)
 
 
 # Overview
@@ -42,3 +43,4 @@ This dashboard will enable the Sales and Marketing teams to:
 - **SQL Server:** Data ingestion, quality checks, SQL-based analysis  
 - **Power BI:** Visualization, dashboard creation, insights delivery
 
+# Steps

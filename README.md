@@ -5,9 +5,9 @@
 - [Overview](#Overview)
 - [Data Source](#Data-Source)
 - [Phases](#Phases)
-  - [Design](##Design)
-    - [Dashboard Components](###Dashboard-Components) 
-    - [Dashboard Draft](###Dashboard-Draft)
+  - [Design](#Design)
+    - [Dashboard Components](#Dashboard-Components) 
+    - [Dashboard Draft](#Dashboard-Draft)
 
 
 # Overview

@@ -82,12 +82,11 @@ The following draft gives us an idea into what our final dashboard will look lik
 Here is our general step-by-step approach to creating and finding a solution for our dilemma.
 1. Acquire the dataset from Kaggle
 2. Explore/Prepare the data in Excel
-3. Prepare the data in Excel
-4. Import data into SQL Server
-5. Clean/Test data in SQL
-6. Build and Visualize data in Power BI
-7. Generate insights and document findings
-8. Publish the data to Github
+3. Import data into SQL Server
+4. Clean/Test data in SQL
+5. Build and Visualize data in Power BI
+6. Generate insights and document findings
+7. Publish the data to Github
 
 ### Data Exploration
 Here is a quick overview of the dataset:
@@ -103,7 +102,7 @@ Here is a quick overview of the dataset:
   - Retail Sales: 1 missing value
 
 ### Data Cleaning
-We need to clean and refine our dataset so that it is structured and ready for analysis. We need to conisder the following:
+We need to clean and refine our dataset so that it is structured and ready for analysis. We need to consider the following:
 - What columns are relevant and should be kept
 - What columns are unnecessary for the project
 - No column should contain any null or missing values

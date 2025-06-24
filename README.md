@@ -97,7 +97,7 @@ Here is a quick overview of the dataset:
     - Year, Month: Time-Based columns
     - Supplier: Company selling the product
     - Item Code, Item Description, Item Type: Product Identification
-    - Retail Sales, Retail Transfers, Warehouse Sales: Sales Metrics
+    - Retail Sales, Warehouse Sales: Sales Metrics
 - Missing Values:
   - Supplier: 33 missing values
   - Retail Sales: 1 missing value
@@ -112,3 +112,19 @@ How can we achieve these steps?
 - Select only necessary columns, therefore removing any unnecessary columns in the process
 - Drop any missing values in the *Supplier* column
 - Fill the missing value in the *Retail Sales* column with a 0, representing no sales
+
+After we have cleaned our dataset, we are left with:
+- 29,967 Rows
+- 8 Columns
+
+Here is representation of the expected schema for the clean data:
+| Column Name | Data Type | Nullable |
+| --- | --- | --- |
+| YEAR | INT | NO |
+| MONTH | INT | NO |
+| SUPPLIER | VARCHAR(50) | NO |
+| ITEM_CODE | INT | NO |
+| ITEM_DESCRIPTION | VARCHAR(MAX) | NO |
+| ITEM_TYPE | VARCHAR(50) | NO |
+| RETAIL_SALES | FLOAT | NO |
+| WAREHOUSE_SALES | FLOAT | NO |

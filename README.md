@@ -127,3 +127,14 @@ Here is representation of the expected schema for the clean data:
 | ITEM_TYPE | VARCHAR(50) | NO |
 | RETAIL_SALES | FLOAT | NO |
 | WAREHOUSE_SALES | FLOAT | NO |
+
+```sql
+/*
+- Select all required columns
+- Create a view to store the transformed data
+*/
+
+CREATE VIEW CleanSeasonalSales AS
+SELECT *
+FROM [dbo].[Retail and Wharehouse Sales]
+```

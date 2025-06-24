@@ -130,8 +130,8 @@ Here is representation of the expected schema for the clean data:
 
 ```sql
 /*
-- Select all required columns
 - Create a view to store the transformed data
+- Select all required columns
 */
 
 CREATE VIEW CleanSeasonalSales AS

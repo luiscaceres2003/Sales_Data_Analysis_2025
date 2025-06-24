@@ -98,7 +98,7 @@ Here is a quick overview of the dataset:
     - Supplier: Company selling the product
     - Item Code, Item Description, Item Type: Product Identification
     - Retail Sales, Retail Transfers, Warehouse Sales: Sales Metrics
-- Missing Values
+- Missing Values:
   - Supplier: 33 missing values
   - Retail Sales: 1 missing value
 

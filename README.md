@@ -9,6 +9,9 @@
     - [Dashboard Components](#Dashboard-Components) 
     - [Dashboard Draft](#Dashboard-Draft)
   - [Development](#Development)
+    - [Pseudocode](#Pseudocode)
+    - [Data Exploration](#Data-Exploration)
+    - [Data Cleaning](#Data-Cleaning)
 
 
 # Overview
@@ -85,3 +88,27 @@ Here is our general step-by-step approach to creating and finding a solution for
 6. Build and Visualize data in Power BI
 7. Generate insights and document findings
 8. Publish the data to Github
+
+### Data Exploration
+Here is a quick overview of the dataset:
+- Rows: 30,000
+- Columns: 9
+  - *Key Columns*
+    - Year, Month: Time-Based columns
+    - Supplier: Company selling the product
+    - Item Code, Item Description, Item Type: Product Identification
+    - Retail Sales, Retail Transfers, Warehouse Sales: Sales Metrics
+- Missing Values
+  - Supplier: 33 missing values
+  - Retail Sales: 1 missing value
+
+### Data Cleaning
+We need to clean and refine our dataset so that it is structured and ready for analysis. We need to conisder the following:
+- What columns are relevant and should be kept
+- What columns are unnecessary for the project
+- No column should contain any null or missing values
+
+How can we achieve these steps?
+- Select only necessary columns, therefore removing any unnecessary columns in the process
+- Drop any missing values in the *Supplier* column
+- Fill the missing value in the *Retail Sales* column with a 0, representing no sales

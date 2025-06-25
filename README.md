@@ -3,6 +3,11 @@
 
 # Table of Contents
 - [Overview](#Overview)
+  - [Description](#Description)
+  - [Dilemma](#Dilemma)
+  - [Approach](#Approach)
+  - [Solution](#Solution)
+  - [Data Source](#Data-Source)
 - [Phases](#Phases)
   - [Design](#Design)
     - [Dashboard Components](#Dashboard-Components) 
@@ -41,7 +46,7 @@ The dashboard should provide the sales team and directors clear, actionable insi
 - Monitor shifts in customer preferences over time
 
 ## Data Source
-- **Dataset:** [[Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)]  
+The dataset can be found on Kaggle using the following link: [[Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)]  
 
 # Phases
 - Design

@@ -3,7 +3,6 @@
 
 # Table of Contents
 - [Overview](#Overview)
-- [Data Source](#Data-Source)
 - [Phases](#Phases)
   - [Design](#Design)
     - [Dashboard Components](#Dashboard-Components) 
@@ -16,13 +15,13 @@
 
 
 # Overview
-### Description:  
+## Description:  
 This project explores synthetic retail sales and customer demographic data to uncover key insights into consumer behavior in a simulated dynamic retail environment. The analysis focuses on a variety of measurements including how age and gender influence purchasing decisions, temporal patterns in sales activity, category-level product appeal, and the interplay between demographics and spending habits. Seasonal trends are also examined to assess how customer behavior shifts throughout the year. The findings aim to inform data-driven marketing strategies and inventory planning in retail operations.
 
-### Dilemma:
+## Dilemma:
 The sales team and retail strategy directors need help identifying key patterns in customer purchasing behavior to improve decision-making across marketing, inventory, and seasonal planning. They are unsure how factors like age and gender impact spending, which product categories resonate most with different demographics, and how customer preferences shift over time and during seasonal trends. Without clear insights into these dynamics, the team risks inefficient targeting, overstocking or understocking popular items, and missing opportunities to personalize the customer experience effectively.
 
-### Solution:
+## Approach:
 To support the sales team in uncovering meaningful trends and customer insights, we are implementing a multi-step analytical process using Excel, Microsoft SQL, and Power BI:
 
 - Excel:
@@ -34,26 +33,15 @@ Once pre-cleaned, the data is imported into SQL for further processing. Here, we
 - Power BI:
 The transformed dataset is then brought into Power BI to develop interactive dashboards. These dashboards visualize patterns in customer purchasing behavior, demographic preferences, seasonal trends, and product category performance—enabling the sales team to make data-driven decisions with clarity and speed.
 
-# Data Source
-- **Dataset:** Kaggle "Retail Sales Data with Seasonal Trends & Marketing"  
-- **Fields include:**
-  - date
-  - product
-  - ID/name
-  - units sold
-  - revenue
-  - marketing spend
-  - customer segment
-  - region
-- **Link:** [[Retail Sales Data with Seasonal Trends & Marketing](https://www.kaggle.com/datasets/abdullah0a/retail-sales-data-with-seasonal-trends-and-marketing?)]  
+## Solution:
+The dashboard should provide the sales team and directors clear, actionable insights into customer behavior and sales trends. It can help them:
+- Identify top-performing demographics and product categories
+- Track seasonal and time-based sales patterns
+- Understand the link between age, gender, and spending habits
+- Monitor shifts in customer preferences over time
 
-## Tools & Technologies
-| Tool | Purpose |
-| --- | --- |
-| Excel | Exploring and familiarizing with dataset |
-| SQL Server | Cleaning, testing, and analyzing the data |
-| Power BI | Visualizing the data via interactive dashboards |
-| GitHub | Hosting the project documentation and version control |
+## Data Source
+- **Dataset:** [[Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)]  
 
 # Phases
 - Design

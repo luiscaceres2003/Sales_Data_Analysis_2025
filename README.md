@@ -82,27 +82,27 @@ The following draft gives us an idea into what our final dashboard will look lik
 ## Pseudocode
 Here is the general step-by-step approach to creating and finding a solution for the dilemma.
 1. Acquire the data
-  - Download the *Retail Sales Dataset* from Kaggle
+    - Download the *Retail Sales Dataset* from Kaggle
 2. Prepare the data in Excel
-  - Clean and format the data
-    - Handle missing values
-    - Standardize date, category, and numerical formats
-  - Save cleaned data as .csv file
+    - Clean and format the data
+      - Handle missing values
+      - Standardize date, category, and numerical formats
+    - Save cleaned data as .csv file
 3. Import data into Microsoft SQL Server
-  - Create database and relevant tables in Microsoft SQL Server Management Studio
-  - Import cleaned data into SQL tables
+    - Create database and relevant tables in Microsoft SQL Server Management Studio
+    - Import cleaned data into SQL tables
 4. Test and transform data in SQL
-  - Run validation queries to test data integrity
-  - Perform data transformations as needed
+    - Run validation queries to test data integrity
+    - Perform data transformations as needed
 5. Build and Visualize data in Power BI
-  - Connect Power BI to SQL server
-  - Create reports and dashboards
+    - Connect Power BI to SQL server
+    - Create reports and dashboards
 6. Generate insights and document findings
-  - Analyze trends and outliers in visualizations
-  - Summarize key findings
+    - Analyze trends and outliers in visualizations
+    - Summarize key findings
 7. Publish the data to Github
-  - Upload project assets to Github repository
-  - Document project in README file
+    - Upload project assets to Github repository
+    - Document project in README file
 
 
 ### Data Exploration

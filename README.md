@@ -12,26 +12,27 @@
     - [Pseudocode](#Pseudocode)
     - [Data Exploration](#Data-Exploration)
     - [Data Cleaning](#Data-Cleaning)
+  - [Testing](#Testing)
 
 
 # Overview
 ### Description:  
-Analyze historical retail sales to uncover seasonal trends, top-performing products, and key customer segments to help the sales director & marketing team optimize inventory and promotional decisions.
+This project explores synthetic retail sales and customer demographic data to uncover key insights into consumer behavior in a simulated dynamic retail environment. The analysis focuses on a variety of measurements including how age and gender influence purchasing decisions, temporal patterns in sales activity, category-level product appeal, and the interplay between demographics and spending habits. Seasonal trends are also examined to assess how customer behavior shifts throughout the year. The findings aim to inform data-driven marketing strategies and inventory planning in retail operations.
 
 ### Dilemma:
-The Sales Director needs clarity on how sales fluctuate seasonally, which products drive peak revenue, and which customer segments contribute most to growth.
+The sales team and retail strategy directors need help identifying key patterns in customer purchasing behavior to improve decision-making across marketing, inventory, and seasonal planning. They are unsure how factors like age and gender impact spending, which product categories resonate most with different demographics, and how customer preferences shift over time and during seasonal trends. Without clear insights into these dynamics, the team risks inefficient targeting, overstocking or understocking popular items, and missing opportunities to personalize the customer experience effectively.
 
 ### Solution:
-Create a dashboard that provides actionable insights into:
-- Seasonal sales trends across the year
-- Top-performing products by revenue and volume
-- High-value customer segments
-- The impact of marketing spend on sales performance
+To support the sales team in uncovering meaningful trends and customer insights, we are implementing a multi-step analytical process using Excel, Microsoft SQL, and Power BI:
 
-This dashboard will enable the Sales and Marketing teams to:
-- Plan inventory more effectively by anticipating seasonal demand
-- Focus promotions on products and customer segments that drive the most value
-- Allocate marketing budgets strategically to maximize return on investment
+- Excel:
+We begin by performing initial data cleaning in Excel to handle formatting issues, remove duplicate entries, and standardize column structures. This ensures the dataset is organized and consistent before deeper transformation.
+
+- Microsoft SQL:
+Once pre-cleaned, the data is imported into SQL for further processing. Here, we perform joins across relevant tables, calculate metrics such as total spend by demographic group, and prepare the data for time-based trend analysis. SQL enables scalable and precise data transformation to support complex queries.
+
+- Power BI:
+The transformed dataset is then brought into Power BI to develop interactive dashboards. These dashboards visualize patterns in customer purchasing behavior, demographic preferences, seasonal trends, and product category performance—enabling the sales team to make data-driven decisions with clarity and speed.
 
 # Data Source
 - **Dataset:** Kaggle "Retail Sales Data with Seasonal Trends & Marketing"  
@@ -57,6 +58,7 @@ This dashboard will enable the Sales and Marketing teams to:
 # Phases
 - Design
 - Development
+- Testing
 
 ## Design
 ### Dashboard Components
@@ -138,3 +140,10 @@ CREATE VIEW CleanSeasonalSales AS
 SELECT *
 FROM [dbo].[Retail and Wharehouse Sales]
 ```
+## Testing
+In this section, we are going to conduct data tests and checks to try and help us gain a better understanding of the dataset so that we may be able to find our solutions stated in the Overview section.
+
+### *How do sales fluctaute seasonally?*
+### *Which products drive the most revenue and units sold?*
+### *Which customer segments are most valuable?*
+### *What is the impact of marketing spend?*

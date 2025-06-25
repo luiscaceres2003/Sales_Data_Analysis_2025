@@ -8,10 +8,10 @@
   - [Approach](#Approach)
   - [Solution](#Solution)
   - [Data Source](#Data-Source)
-- [Phases](#Phases)
-  - [Design](#Design)
-    - [Dashboard Components](#Dashboard-Components) 
-    - [Dashboard Draft](#Dashboard-Draft)
+  - [Phases](#Phases)
+- [Design](#Design)
+  - [Dashboard Components](#Dashboard-Components) 
+  - [Dashboard Draft](#Dashboard-Draft)
   - [Development](#Development)
     - [Pseudocode](#Pseudocode)
     - [Data Exploration](#Data-Exploration)
@@ -48,13 +48,13 @@ The dashboard should provide the sales team and directors clear, actionable insi
 ## Data Source
 The dataset can be found on Kaggle using the following link: [[Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)]  
 
-# Phases
+## Phases
 - Design
 - Development
 - Testing
 - Analysis
 
-## Design
+# Design
 ### Dashboard Components
 What should the dashboard contain in order to help the Sales Director and Marketing team meet their goals?
 - Here are some of the questions that the dashboard should be able to answer:

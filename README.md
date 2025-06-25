@@ -52,6 +52,7 @@ The dataset can be found on Kaggle using the following link: [[Retail Sales Data
 - Design
 - Development
 - Testing
+- Analysis
 
 ## Design
 ### Dashboard Components

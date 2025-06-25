@@ -55,23 +55,27 @@ The dataset can be found on Kaggle using the following link: [[Retail Sales Data
 - Analysis
 
 # Design
-### Dashboard Components
-What should the dashboard contain in order to help the Sales Director and Marketing team meet their goals?
-- Here are some of the questions that the dashboard should be able to answer:
-  - How do sales fluctuate seasonally?
-  - Which products drive the most revenue and units sold?
-  - Which customer segments are most valuable?
-  - What is the impact of marketing spend?
+## Dashboard Components
+The dashboard should contain data visuals that can help identify certain trends and insights into customer behavior and sales information. We can break this information down into three key questions:
+- How does customer age and gender influence purchasing behavior?
+- Are there discernible patterns in sales across different time periods?
+- Which product categories hold the highest appeal among customers?
 
-- We can use some of the following data visuals to help answer these questions:
-  - Line Chart: Clearly shows trends over time, highlights seasonal peaks and troughs.
-  - Bar Chart: Quickly identifies top-performing products; bar charts are ideal for ranking.
-  - Donut Chart: Provides a clear view of revenue share by segment in a visually digestible way.
-  - Scatter Plot: Shows correlation or trend between investment and return, helping assess ROI.
+We can use some of the following data visuals to help answer these questions:
+- Bar/Pie Chart: Display sales grouped by age groups or genders.
+- Line Chart: Give insight into monthly sales trends.
+- Heatmap: Display sales by day, week, or month
+- Treemap: Exhibit category sales distribution
 
-### Dashboard Draft
+Global filters can also be included near the top of the dashboard to help ease the display of information as well. The filters could include:
+-  Date Range
+-  Genger
+-  Age Group
+-  Category
+
+## Dashboard Draft
 The following draft gives us an idea into what our final dashboard will look like after the data has been properly processed and analyzed. Each data visual best represents an answer to each question.
-![image](![image](https://github.com/user-attachments/assets/24942b31-f8de-4294-9a26-eeda69e7a5dc)
+![image](https://github.com/user-attachments/assets/24942b31-f8de-4294-9a26-eeda69e7a5dc)
 
 ## Development
 ### Pseudocode

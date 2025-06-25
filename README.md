@@ -78,7 +78,7 @@ The following draft gives us an idea into what our final dashboard will look lik
 
 ![image](https://github.com/user-attachments/assets/24942b31-f8de-4294-9a26-eeda69e7a5dc)
 
-## Development
+# Development
 ### Pseudocode
 Here is our general step-by-step approach to creating and finding a solution for our dilemma.
 1. Acquire the dataset from Kaggle

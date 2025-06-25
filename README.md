@@ -12,10 +12,10 @@
 - [Design](#Design)
   - [Dashboard Components](#Dashboard-Components) 
   - [Dashboard Draft](#Dashboard-Draft)
-  - [Development](#Development)
-    - [Pseudocode](#Pseudocode)
-    - [Data Exploration](#Data-Exploration)
-    - [Data Cleaning](#Data-Cleaning)
+- [Development](#Development)
+  - [Pseudocode](#Pseudocode)
+  - [Data Exploration](#Data-Exploration)
+  - [Data Cleaning](#Data-Cleaning)
   - [Testing](#Testing)
 
 
@@ -75,6 +75,7 @@ Global filters can also be included near the top of the dashboard to help ease t
 
 ## Dashboard Draft
 The following draft gives us an idea into what our final dashboard will look like after the data has been properly processed and analyzed. Each data visual best represents an answer to each question.
+
 ![image](https://github.com/user-attachments/assets/24942b31-f8de-4294-9a26-eeda69e7a5dc)
 
 ## Development

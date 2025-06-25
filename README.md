@@ -71,7 +71,8 @@ What should the dashboard contain in order to help the Sales Director and Market
 
 ### Dashboard Draft
 The following draft gives us an idea into what our final dashboard will look like after the data has been properly processed and analyzed. Each data visual best represents an answer to each question.
-![image](https://github.com/user-attachments/assets/b5f3599d-0625-4186-9b94-b1ace7551f55)
+![image](![image](https://github.com/user-attachments/assets/24942b31-f8de-4294-9a26-eeda69e7a5dc)
+)
 
 ## Development
 ### Pseudocode

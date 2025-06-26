@@ -173,6 +173,8 @@ GROUP BY Gender;
 ### Output
 <img alt="image" src="https://github.com/user-attachments/assets/e863168d-d3b8-4c49-b2af-5f585b1de154" />
 
+This output shows how much each gender contributes to total revenue and can be represented in the dashboard using a **pie chart**.
+
 ```sql
 /*
    1. Select the Gender, Age, and Total_Amount columns from CleanRetailSales View.
@@ -208,6 +210,8 @@ GROUP BY
 ```
 ### Output
 <img alt="image" src="https://github.com/user-attachments/assets/5a73bb99-af94-47eb-84c7-41967ec62fe3" />
+
+This output compares sales across age groups, broken down by gender and can be represented in the dashboard using a **bar chart**.
 
 ## *Are there discernible patterns in sales across different time periods?*
 

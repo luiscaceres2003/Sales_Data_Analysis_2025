@@ -109,10 +109,10 @@ Here is a quick overview of the dataset:
 - Rows: 1,000
 - Columns: 9
 - *Key Columns*
-  - Date: Identify time-based trends and seasonality.
-  - Gender & Age: Analyze customer demographics and behavior.
-  - Product Category: Determine which categories are most popular.
-  - Quantity, Price per Unit, Total Amount: Essential for sales performance and revenue analysis.
+  - **Date**: Identify time-based trends and seasonality.
+  - **Gender** & **Age**: Analyze customer demographics and behavior.
+  - **Product Category**: Determine which categories are most popular.
+  - **Quantity**, **Price per Unit**, **Total Amount**: Essential for sales performance and revenue analysis.
 - There are no missing values in the dataset
 
 ### Data Cleaning

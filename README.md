@@ -104,19 +104,16 @@ Here is the general step-by-step approach to creating and finding a solution for
     - Upload project assets to Github repository
     - Document project in README file
 
-
-### Data Exploration
+## Data Exploration
 Here is a quick overview of the dataset:
-- Rows: 30,000
+- Rows: 1,000
 - Columns: 9
-  - *Key Columns*
-    - Year, Month: Time-Based columns
-    - Supplier: Company selling the product
-    - Item Code, Item Description, Item Type: Product Identification
-    - Retail Sales, Warehouse Sales: Sales Metrics
-- Missing Values:
-  - Supplier: 33 missing values
-  - Retail Sales: 1 missing value
+- *Key Columns*
+  - Date: Identify time-based trends and seasonality.
+  - Gender & Age: Analyze customer demographics and behavior.
+  - Product Category: Determine which categories are most popular.
+  - Quantity, Price per Unit, Total Amount: Essential for sales performance and revenue analysis.
+- There are no missing values in the dataset
 
 ### Data Cleaning
 We need to clean and refine our dataset so that it is structured and ready for analysis. We need to consider the following:

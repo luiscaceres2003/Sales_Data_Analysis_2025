@@ -121,7 +121,7 @@ Cleaning the dataset won't require too much effort, as most of the columns are r
 
 The only column that won't be used in the analysis is going to be *Customer ID* column. Therefore we can remove it before importing the data into the Microsoft SQL Server.
 
-Here is representation of the expected schema for the clean data:
+Here is a representation of the expected schema for the clean data:
 | Column Name | Data Type | Nullable |
 | --- | --- | --- |
 | TRANSACTION_ID | INT (**PRIMARY KEY**) | NO |
@@ -137,15 +137,18 @@ After we have cleaned our dataset, we are left with:
 - 1,000 Rows
 - 8 Columns
 
-```sql
-/*
-- Create a view to store the transformed data
-- Select all required columns
-*/
+Now that we have cleaned our dataset and imported the data into the Microsoft SQL Server, the last thing we can do to check if our data is clean and ready for testing is to create a view of the transformed data.
 
-CREATE VIEW CleanSeasonalSales AS
+```sql
+-- We create a view of the transformed data and select all the data from the VIEW to ensure our data is ready for testing.
+
+CREATE VIEW CleanRetailSales AS
 SELECT *
-FROM [dbo].[Retail and Wharehouse Sales]
+FROM [dbo].[Retail Sales Dataset csv]
+GO
+
+SELECT *
+FROM CleanRetailSales
 ```
 ## Testing
 In this section, we are going to conduct data tests and checks to try and help us gain a better understanding of the dataset so that we may be able to find our solutions stated in the Overview section.

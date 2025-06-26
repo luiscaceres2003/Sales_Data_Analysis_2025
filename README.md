@@ -64,8 +64,8 @@ The dashboard should contain data visuals that can help identify certain trends 
 We can use some of the following data visuals to help answer these questions:
 - Bar/Pie Chart: Display sales grouped by age groups or genders.
 - Line Chart: Give insight into monthly sales trends.
-- Heatmap: Display sales by day, week, or month
-- Treemap: Exhibit category sales distribution
+- Heatmap: Display sales by day, week, or month.
+- Treemap: Exhibit category sales distribution.
 
 Global filters can also be included near the top of the dashboard to help ease the display of information as well. The filters could include:
 -  Date Range
@@ -217,7 +217,83 @@ GROUP BY
 This output compares sales across age groups, broken down by gender and can be represented in the dashboard using a **bar chart**.
 
 ## *Are there discernible patterns in sales across different time periods?*
+### SQL Squery
+```sql
+/*
+   1. Select the Date and Total_Amount columns; 
+      format the date column as 'year-month' and add up the Total_Amount column; 
+      rename them as 'Month' and 'TotalSales'.
+   2. Group the results by the Month column.
+   3. Order the results by the Month column.
+*/
 
+-- 1.
+SELECT 
+    FORMAT([Date], 'yyyy-MM') AS Month,
+    SUM([Total_Amount]) AS TotalSales
+FROM CleanRetailSales
+-- 2.
+GROUP BY FORMAT([Date], 'yyyy-MM')
+-- 3.
+ORDER BY Month;
 
-## *Which product categories hold the highest appeal among customers?*
+```
+### Output
+<img alt="image" src="https://github.com/user-attachments/assets/8b4ae345-7a15-480c-bfdf-ed76e479edaa" />
 
+This output shows the total sales per month across the dataset’s time range and can be represented in the dashboard using a **line chart**.
+
+### SQL Squery
+```sql
+/*
+   1. Select the Date and Total_Amount columns; 
+      choose the weekday from the date and add up the Total_Amount column; 
+      rename them as 'DayOfWeek' and 'TotalSales'.
+   2. Group the results by the DayOfWeek column.
+*/
+
+-- 1.
+SELECT 
+    DATENAME(WEEKDAY, [Date]) AS DayOfWeek,
+    SUM([Total_Amount]) AS TotalSales
+FROM CleanRetailSales
+-- 2.
+GROUP BY DATENAME(WEEKDAY, [Date]);
+
+```
+### Output
+<img alt="image" src="https://github.com/user-attachments/assets/bcba12cd-13ac-44a8-8add-f244509b29b7" />
+
+### SQL Squery
+```sql
+/*
+   1. Select the year from the Date column; rename it as 'SalesYear';
+      select the month from the Date column; rename it as 'SalesMonthNumber';
+      select the month name from the Date column; rename it as 'SalesMonthName'.
+   2. Select and add up the Total_Amount column; rename it as 'TotalSales'.
+   3. Group the results by year, month, and month name columns.
+   4. Order the results by the SalesYear and SalesMonthNumber columns.
+*/
+
+-- 1.
+SELECT 
+    YEAR([Date]) AS SalesYear,
+    MONTH([Date]) AS SalesMonthNumber,
+    DATENAME(MONTH, [Date]) AS SalesMonthName,
+-- 2.    
+    SUM([Total_Amount]) AS TotalSales
+FROM CleanRetailSales
+-- 3.
+GROUP BY 
+    YEAR([Date]),
+    MONTH([Date]),
+    DATENAME(MONTH, [Date])
+-- 4.
+ORDER BY 
+    SalesYear,
+    SalesMonthNumber;
+```
+### Output
+<img alt="image" src="https://github.com/user-attachments/assets/9a8c2e0a-6018-4ddb-b8de-9fde3bc6874d" />
+
+These outputs spot sales activity by weekday and visualize seasonality over months and years. Both of these outputs can be displayed using a **heatmap**.

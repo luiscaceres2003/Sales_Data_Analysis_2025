@@ -151,7 +151,30 @@ SELECT *
 FROM CleanRetailSales
 ```
 # Testing
-To begin our testing phase, let's go over our three key questions so that we can then break them down and find our answer using our SQL queries:
-- How does customer age and gender influence purchasing behavior?
-- Are there discernible patterns in sales across different time periods?
-- Which product categories hold the highest appeal among customers?
+We can break down our testing phase into three parts using our three key questions as guidance. We should be able to answer these questions using SQL queries, and then use the information we found to design our Power BI Dashboard.
+
+## *How does customer age and gender influence purchasing behavior?*
+```sql
+/*
+   1. Select the Gender and Total_Amount columns from the CleanRetailSales VIEW
+   2. Add up the Total_Amount rows and rename the new column as TotalSales
+   3.Group up the columns by Gender
+*/
+
+SELECT 
+-- 1.
+    Gender,
+-- 2.
+    SUM([Total_Amount]) AS TotalSales
+FROM CleanRetailSales
+-- 3.
+GROUP BY Gender;
+```
+### Output
+<img width="107" alt="image" src="https://github.com/user-attachments/assets/e863168d-d3b8-4c49-b2af-5f585b1de154" />
+
+## *Are there discernible patterns in sales across different time periods?*
+
+
+## *Which product categories hold the highest appeal among customers?*
+

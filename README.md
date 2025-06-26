@@ -151,3 +151,7 @@ SELECT *
 FROM CleanRetailSales
 ```
 # Testing
+To begin our testing phase, let's go over our three key questions so that we can then break them down and find our answer using our SQL queries:
+- How does customer age and gender influence purchasing behavior?
+- Are there discernible patterns in sales across different time periods?
+- Which product categories hold the highest appeal among customers?

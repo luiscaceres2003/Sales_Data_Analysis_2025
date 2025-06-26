@@ -139,6 +139,7 @@ After we have cleaned our dataset, we are left with:
 
 Now that we have cleaned our dataset and imported the data into the Microsoft SQL Server, the last thing we can do to check if our data is clean and ready for testing is to create a view of the transformed data.
 
+### SQL Query
 ```sql
 -- We create a view of the transformed data and select all the data from the VIEW to ensure our data is ready for testing.
 

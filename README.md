@@ -171,7 +171,7 @@ FROM CleanRetailSales
 GROUP BY Gender;
 ```
 ### Output
-<img width="107" alt="image" src="https://github.com/user-attachments/assets/e863168d-d3b8-4c49-b2af-5f585b1de154" />
+<img alt="image" src="https://github.com/user-attachments/assets/e863168d-d3b8-4c49-b2af-5f585b1de154" />
 
 ## *Are there discernible patterns in sales across different time periods?*
 

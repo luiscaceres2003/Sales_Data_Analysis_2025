@@ -109,13 +109,14 @@ Here is a quick overview of the dataset:
 - Rows: 1,000
 - Columns: 9
 - *Key Columns*
+  - **Transaction ID**: Acts as a primary key during SQL analysis.
   - **Date**: Identify time-based trends and seasonality.
   - **Gender** & **Age**: Analyze customer demographics and behavior.
   - **Product Category**: Determine which categories are most popular.
   - **Quantity**, **Price per Unit**, **Total Amount**: Essential for sales performance and revenue analysis.
 - There are no missing values in the dataset
 
-### Data Cleaning
+###Data Cleaning
 We need to clean and refine our dataset so that it is structured and ready for analysis. We need to consider the following:
 - What columns are relevant and should be kept
 - What columns are unnecessary for the project

@@ -297,3 +297,29 @@ ORDER BY
 <img alt="image" src="https://github.com/user-attachments/assets/9a8c2e0a-6018-4ddb-b8de-9fde3bc6874d" />
 
 These outputs spot sales activity by weekday and visualize seasonality over months and years. Both of these outputs can be displayed using a **heatmap**.
+## *Which product categories hold the highest appeal among customers?*
+### SQL Squery
+```sql
+/*
+   1. Select the Product_Category column;
+      select and add up the Total_Amount column; rename it as 'TotalSales'.
+   2. Group the results by the Product_Category column.
+   3. Order the results by the number of total sales.
+*/
+
+-- 1. 
+SELECT 
+    [Product_Category],
+    SUM([Total_Amount]) AS TotalSales
+FROM CleanRetailSales
+-- 2.
+GROUP BY [Product_Category]
+-- 3.
+ORDER BY TotalSales DESC;
+```
+### Output
+<img alt="image" src="https://github.com/user-attachments/assets/914c2ed6-175e-4cd6-9232-a2a822ff85f8" />
+
+This output shows which categories generate the most revenue and can be represented using a **tree map**.
+
+# Analysis

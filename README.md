@@ -16,7 +16,7 @@
   - [Pseudocode](#Pseudocode)
   - [Data Exploration](#Data-Exploration)
   - [Data Cleaning](#Data-Cleaning)
-- [Testing](#Testing)
+- [Visualization](#Visualization)
 
 
 # Overview
@@ -322,4 +322,4 @@ ORDER BY TotalSales DESC;
 
 This output shows which categories generate the most revenue and can be represented using a **tree map**.
 
-# Analysis
+# Visualization

@@ -62,7 +62,7 @@ The dashboard should contain data visuals that can help identify certain trends 
 - Which product categories hold the highest appeal among customers?
 
 We can use some of the following data visuals to help answer these questions:
-- Bar/Pie Chart: Display sales grouped by age groups or genders.
+- Bar Chart: Display sales grouped by age groups or genders.
 - Line Chart: Give insight into monthly sales trends.
 - Heatmap: Display sales by day, week, or month.
 - Treemap: Exhibit category sales distribution.
@@ -155,28 +155,6 @@ FROM CleanRetailSales
 We can break down our testing phase into three parts using our three key questions as guidance. We should be able to answer these questions using SQL queries, and then use the information we found to design our Power BI Dashboard.
 
 ## *How does customer age and gender influence purchasing behavior?*
-### SQL Query
-```sql
-/*
-   1. Select the Gender and Total_Amount columns from the CleanRetailSales VIEW
-   2. Add up the Total_Amount rows and rename the new column as TotalSales
-   3.Group up the columns by Gender
-*/
-
-SELECT 
--- 1.
-    Gender,
--- 2.
-    SUM([Total_Amount]) AS TotalSales
-FROM CleanRetailSales
--- 3.
-GROUP BY Gender;
-```
-### Output
-<img alt="image" src="https://github.com/user-attachments/assets/e863168d-d3b8-4c49-b2af-5f585b1de154" />
-
-This output shows how much each gender contributes to total revenue and can be represented in the dashboard using a **pie chart**.
-
 ### SQL Query
 ```sql
 /*

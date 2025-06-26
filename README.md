@@ -154,6 +154,7 @@ FROM CleanRetailSales
 We can break down our testing phase into three parts using our three key questions as guidance. We should be able to answer these questions using SQL queries, and then use the information we found to design our Power BI Dashboard.
 
 ## *How does customer age and gender influence purchasing behavior?*
+### SQL Query
 ```sql
 /*
    1. Select the Gender and Total_Amount columns from the CleanRetailSales VIEW
@@ -175,6 +176,7 @@ GROUP BY Gender;
 
 This output shows how much each gender contributes to total revenue and can be represented in the dashboard using a **pie chart**.
 
+### SQL Query
 ```sql
 /*
    1. Select the Gender, Age, and Total_Amount columns from CleanRetailSales View.

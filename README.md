@@ -264,39 +264,8 @@ GROUP BY DATENAME(WEEKDAY, [Date]);
 ### Output
 <img alt="image" src="https://github.com/user-attachments/assets/bcba12cd-13ac-44a8-8add-f244509b29b7" />
 
-### SQL Squery
-```sql
-/*
-   1. Select the year from the Date column; rename it as 'SalesYear';
-      select the month from the Date column; rename it as 'SalesMonthNumber';
-      select the month name from the Date column; rename it as 'SalesMonthName'.
-   2. Select and add up the Total_Amount column; rename it as 'TotalSales'.
-   3. Group the results by year, month, and month name columns.
-   4. Order the results by the SalesYear and SalesMonthNumber columns.
-*/
+This output spots sales activity by weekday and can be displayed using a **heatmap**.
 
--- 1.
-SELECT 
-    YEAR([Date]) AS SalesYear,
-    MONTH([Date]) AS SalesMonthNumber,
-    DATENAME(MONTH, [Date]) AS SalesMonthName,
--- 2.    
-    SUM([Total_Amount]) AS TotalSales
-FROM CleanRetailSales
--- 3.
-GROUP BY 
-    YEAR([Date]),
-    MONTH([Date]),
-    DATENAME(MONTH, [Date])
--- 4.
-ORDER BY 
-    SalesYear,
-    SalesMonthNumber;
-```
-### Output
-<img alt="image" src="https://github.com/user-attachments/assets/9a8c2e0a-6018-4ddb-b8de-9fde3bc6874d" />
-
-These outputs spot sales activity by weekday and visualize seasonality over months and years. Both of these outputs can be displayed using a **heatmap**.
 ## *Which product categories hold the highest appeal among customers?*
 ### SQL Squery
 ```sql

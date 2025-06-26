@@ -116,32 +116,26 @@ Here is a quick overview of the dataset:
   - **Quantity**, **Price per Unit**, **Total Amount**: Essential for sales performance and revenue analysis.
 - There are no missing values in the dataset
 
-###Data Cleaning
-We need to clean and refine our dataset so that it is structured and ready for analysis. We need to consider the following:
-- What columns are relevant and should be kept
-- What columns are unnecessary for the project
-- No column should contain any null or missing values
+## Data Cleaning
+Cleaning the dataset won't require too much effort, as most of the columns are required for the analysis. In addition, there aren't any missing values in the dataset, so we won't have to fill in any missing data or remove any NULL values. 
 
-How can we achieve these steps?
-- Select only necessary columns, therefore removing any unnecessary columns in the process
-- Drop any missing values in the *Supplier* column
-- Fill the missing value in the *Retail Sales* column with a 0, representing no sales
-
-After we have cleaned our dataset, we are left with:
-- 29,967 Rows
-- 8 Columns
+The only column that won't be used in the analysis is going to be *Customer ID* column. Therefore we can remove it before importing the data into the Microsoft SQL Server.
 
 Here is representation of the expected schema for the clean data:
 | Column Name | Data Type | Nullable |
 | --- | --- | --- |
-| YEAR | INT | NO |
-| MONTH | INT | NO |
-| SUPPLIER | VARCHAR(50) | NO |
-| ITEM_CODE | INT | NO |
-| ITEM_DESCRIPTION | VARCHAR(MAX) | NO |
-| ITEM_TYPE | VARCHAR(50) | NO |
-| RETAIL_SALES | FLOAT | NO |
-| WAREHOUSE_SALES | FLOAT | NO |
+| TRANSACTION_ID | INT (**PRIMARY KEY**) | NO |
+| DATE | DATE | NO |
+| GENDER | VARCHAR(50) | NO |
+| AGE | INT | NO |
+| PRODUCT_CATEGORY | VARCHAR(50) | NO |
+| QUANTITY | INT | NO |
+| PRICE_PER_UNIT | INT | NO |
+| TOTAL_AMOUNT | INT | NO |
+
+After we have cleaned our dataset, we are left with:
+- 1,000 Rows
+- 8 Columns
 
 ```sql
 /*

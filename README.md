@@ -16,7 +16,7 @@
   - [Pseudocode](#Pseudocode)
   - [Data Exploration](#Data-Exploration)
   - [Data Cleaning](#Data-Cleaning)
-  - [Testing](#Testing)
+- [Testing](#Testing)
 
 
 # Overview
@@ -150,10 +150,4 @@ GO
 SELECT *
 FROM CleanRetailSales
 ```
-## Testing
-In this section, we are going to conduct data tests and checks to try and help us gain a better understanding of the dataset so that we may be able to find our solutions stated in the Overview section.
-
-### *How do sales fluctaute seasonally?*
-### *Which products drive the most revenue and units sold?*
-### *Which customer segments are most valuable?*
-### *What is the impact of marketing spend?*
+# Testing

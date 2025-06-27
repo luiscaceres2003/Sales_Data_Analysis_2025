@@ -272,3 +272,5 @@ This output shows which categories generate the most revenue and can be represen
 # Visualization
 This is what our final dashboard looks like:
 ![PowerBI RSA Dashboard](https://github.com/user-attachments/assets/b871fc89-055f-4f97-8574-19c8307764e6)
+
+This dashboard provides the sales team and directors clear, actionable insights into customer behavior and sales trends.

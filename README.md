@@ -270,3 +270,5 @@ ORDER BY TotalSales DESC;
 This output shows which categories generate the most revenue and can be represented using a **tree map**.
 
 # Visualization
+This is what our final dashboard looks like:
+![PowerBI RSA Dashboard](https://github.com/user-attachments/assets/b871fc89-055f-4f97-8574-19c8307764e6)

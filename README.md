@@ -19,6 +19,7 @@
 - [Visualization](#Visualization)
 - [Analysis](#Analysis)
   - [Findings](#Findings)
+  - [Discoveries](#Discoveries)
 
 
 # Overview
@@ -287,8 +288,8 @@ For the analysis, we are going to focus on our three key questions to try and ge
 ### 1. **How does customer age and gender influence purchasing behavior?**
 | Age Group | Gender | Total Sales |
 | --- | --- | --- |
-| Under 20 | Male | 71390 |
-| Under 20 | Female | 71765 |
+| Under 20 | Male | 10810 |
+| Under 20 | Female | 15275 |
 | 20-29 | Male | 48820 |
 | 20-29 | Female | 48250 |
 | 30-39 | Male | 47080 |
@@ -319,7 +320,7 @@ For the analysis, we are going to focus on our three key questions to try and ge
 | April | 33870 |
 | May | 53150 |
 | June | 36715 |
-| July | 35456 |
+| July | 35465 |
 | August | 36960 |
 | September | 23620 |
 | October | 46580 |
@@ -332,3 +333,9 @@ For the analysis, we are going to focus on our three key questions to try and ge
 | Electronics | 156905 |
 | Clothing | 155580 |
 | Beauty | 143515 |
+
+## Discoveries
+From our analysis, we have discovered several things:
+1. *Female* customers that are aged *50 and over* contribute the most to the total sales.
+2. **Saturdays** are the days with the highest sales; **May** is the month with the highest sales.
+3. The *Electronics* category holds the highest appeal among customers.

@@ -327,3 +327,8 @@ For the analysis, we are going to focus on our three key questions to try and ge
 | December | 44690 |
 
 ### 3. **Which product categories hold the highest appeal among customers?**
+| Product Category | Total Sales |
+| --- | --- |
+| Electronics | 156905 |
+| Clothing | 155580 |
+| Beauty | 143515 |

@@ -17,6 +17,8 @@
   - [Data Exploration](#Data-Exploration)
   - [Data Cleaning](#Data-Cleaning)
 - [Visualization](#Visualization)
+- [Analysis](#Analysis)
+  - [Findings](#Findings)
 
 
 # Overview
@@ -274,3 +276,26 @@ This is what our final dashboard looks like:
 ![PowerBI RSA Dashboard](https://github.com/user-attachments/assets/b871fc89-055f-4f97-8574-19c8307764e6)
 
 This dashboard provides the sales team and directors clear, actionable insights into customer behavior and sales trends.
+
+# Analysis
+## Findings
+For the analysis, we are going to focus on our three key questions to try and get the information we need for the sales team and retail strategy directors.
+1. **How does customer age and gender influence purchasing behavior?**
+2. **Are there discernible patterns in sales across different time periods?**
+3. **Which product categories hold the highest appeal among customers?**
+
+## 1. **How does customer age and gender influence purchasing behavior?**
+| Age Group | Gender | Total Sales |
+| --- | --- | --- |
+| Under 20 | Male | 71390 |
+| Under 20 | Female | 71765 |
+| 20-29 | Male | 48820 |
+| 20-29 | Female | 48250 |
+| 30-39 | Male | 47080 |
+| 30-39 | Female | 49245 |
+| 40-49 | Male | 45060 |
+| 40-49 | Female | 48305 |
+| 50+ | Male | 71390 |
+| 50+ | Female | 71765 |
+## 2. **Are there discernible patterns in sales across different time periods?**
+## 3. **Which product categories hold the highest appeal among customers?**

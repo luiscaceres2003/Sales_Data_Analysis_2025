@@ -20,6 +20,7 @@
 - [Analysis](#Analysis)
   - [Findings](#Findings)
   - [Discoveries](#Discoveries)
+  - [Recommendations](#Recommendations)
 
 
 # Overview
@@ -335,7 +336,23 @@ For the analysis, we are going to focus on our three key questions to try and ge
 | Beauty | 143515 |
 
 ## Discoveries
-From our analysis, we have discovered several things:
+We have made several discoveries during our analysis. Here are the top 3 findings that best align with the three key questions:
 1. *Female* customers that are aged *50 and over* contribute the most to the total sales.
 2. **Saturdays** are the days with the highest sales; **May** is the month with the highest sales.
 3. The *Electronics* category holds the highest appeal among customers.
+
+## Recommendations
+Based on our discoveries and our analysis, we can give several recommendations to the sales team and retail strategy directors to help improve their decision-making across marketing, inventory, and seasonal planning.
+1. **Target Marketing and Personalization**
+  - Prioritize marketing campaigns and personalized promotions toward female customers aged 50 and over, as they contribute the most to sales.
+  - Consider tailored loyalty programs or exclusive offers for this demographic to maximize retention and spending.
+2. **Inventory and Seasonal Planning**
+  - Ensure adequate stock of Electronics throughout the year, with additional inventory during peak periods to prevent stockouts, as it is the top-performing category.
+  - Plan for higher inventory and staffing on Saturdays and in May to accommodate increased demand, reducing missed sales opportunities.
+3. **Product and Promotion Alignment**
+  - Run seasonal and weekend promotions on Electronics to leverage high-demand periods, increasing sales velocity while maintaining customer satisfaction.
+  - Align in-store displays and online banners with top categories and the key demographic to guide purchasing decisions effectively.
+
+These recommendations help the sales team and retail strategy directors by providing clear insights into customer purchasing patterns, ensuring they can effectively target high-value demographics, align inventory with peak periods, and focus marketing efforts where they drive the most revenue.
+
+By understanding which age and gender groups spend the most, which product categories are most popular, and when sales are highest, the team can avoid overstocking or understocking, improve personalization, and enhance the customer experience while maximizing sales opportunities.

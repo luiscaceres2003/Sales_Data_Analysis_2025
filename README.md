@@ -284,7 +284,7 @@ For the analysis, we are going to focus on our three key questions to try and ge
 2. **Are there discernible patterns in sales across different time periods?**
 3. **Which product categories hold the highest appeal among customers?**
 
-## 1. **How does customer age and gender influence purchasing behavior?**
+### 1. **How does customer age and gender influence purchasing behavior?**
 | Age Group | Gender | Total Sales |
 | --- | --- | --- |
 | Under 20 | Male | 71390 |
@@ -297,5 +297,33 @@ For the analysis, we are going to focus on our three key questions to try and ge
 | 40-49 | Female | 48305 |
 | 50+ | Male | 71390 |
 | 50+ | Female | 71765 |
-## 2. **Are there discernible patterns in sales across different time periods?**
-## 3. **Which product categories hold the highest appeal among customers?**
+
+### 2. **Are there discernible patterns in sales across different time periods?**
+#### Daily Sales Trends
+| Day | Total Sales |
+| --- | --- |
+| Sunday | 58600 |
+| Monday | 70250 |
+| Tuesday | 69440 |
+| Wednesday | 58770 |
+| Thursday | 53835 |
+| Friday | 66290 |
+| Saturday | 78815 |
+
+#### Monthly Sales Trends
+| Month | Total Sales |
+| --- | --- |
+| January | 36980 |
+| February | 44060 |
+| March | 28990 |
+| April | 33870 |
+| May | 53150 |
+| June | 36715 |
+| July | 35456 |
+| August | 36960 |
+| September | 23620 |
+| October | 46580 |
+| November | 34920 |
+| December | 44690 |
+
+### 3. **Which product categories hold the highest appeal among customers?**
